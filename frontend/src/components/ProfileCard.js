@@ -1,25 +1,21 @@
 import React from 'react';
-import { Container, Row, Card } from 'react-bootstrap';
+import { Container, Row, Image } from 'react-bootstrap';
 
 const ProfileCard = () => {
  return (
   <div>
-   <Container>
+   <Container className='text-center'>
     <Row>
-     <Card>
-      <Card.Body className='text-center'>
-       <Card.Img
-        src='images/08.09.20_Arieli_Shay_029.jpg'
-        className='rounded-circle mb-3 w-50'
-        alt=''
-        fluid
-       />
+     <Image
+      src='images/08.09.20_Arieli_Shay_029.jpg'
+      className='rounded-circle w-50 m-auto my-3'
+      alt=''
+      fluid
+     />
 
-       <Card.Title className='text-dark mb-3'>שי אריאלי</Card.Title>
+     <h2 className='text-white mb-3'>שי אריאלי</h2>
 
-       <Card.Text className='text-dark'>יועץ נדלן שלך</Card.Text>
-      </Card.Body>
-     </Card>
+     <p className='text-white'>יועץ הנדל"ן האישי שלך</p>
     </Row>
    </Container>
   </div>

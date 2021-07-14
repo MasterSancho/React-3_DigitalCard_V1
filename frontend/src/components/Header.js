@@ -7,7 +7,7 @@ const Header = () => {
   <header>
    <Navbar
     className='fixed-top'
-    bg='dark'
+    bg='primary'
     variant='dark'
     expand='md'
     collapseOnSelect>

@@ -7,20 +7,27 @@ import IconsShare from './components/IconsShare';
 import PicturesCarousel from './components/PicturesCarousel';
 import About from './components/About';
 import RecommendsCarousel from './components/RecommendsCarousel';
+import Footer from './components/Footer';
+import Divider from './components/Divider';
 
 const App = () => {
  return (
   <Router>
-   <Header />
+   {/* <Header /> */}
    <main>
     <Showcase />
     <ProfileCard />
     <IconsLinks />
     <IconsShare />
+    <Divider />
     <PicturesCarousel />
+    <Divider />
     <About />
+    <Divider />
     <RecommendsCarousel />
+    <Divider />
    </main>
+   <Footer />
   </Router>
  );
 };

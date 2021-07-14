@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 const About = () => {
  return (
   <Container className='text-center'>
-   <h2>אודות</h2>
+   <h2 className='text-light'>אודות</h2>
 
    <p>
     שמי שי אריאלי, בן 40 יליד כפר סבא. נכנסתי לתחום התיווך מקרקעין לפני כ 9

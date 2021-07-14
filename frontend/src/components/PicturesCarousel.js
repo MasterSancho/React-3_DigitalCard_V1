@@ -4,7 +4,7 @@ import pictures from '../pictures';
 
 const PicturesCarousel = () => {
  return (
-  <Container className='py-5'>
+  <Container>
    <Carousel pause='hover' className='bg-dark'>
     {pictures.map((picture) => (
      <Carousel.Item key={picture._id}>

@@ -4,8 +4,8 @@ import recommends from '../recommends';
 
 const RecommendsCarousel = () => {
  return (
-  <Container className='py-5'>
-   <h2 className='text-center'>לקוחות ממליצים</h2>
+  <Container>
+   <h2 className='text-center text-light'>לקוחות ממליצים</h2>
 
    <Carousel pause='hover' className='bg-dark'>
     {recommends.map((recommend) => (
