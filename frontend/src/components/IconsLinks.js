@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { Twitter, Facebook, Linkedin, Instagram } from 'react-bootstrap-icons';
 
 const IconsLinks = () => {
  return (
@@ -45,7 +44,7 @@ const IconsLinks = () => {
      </Col>
 
      <Col className='text-center'>
-      <Card.Link href='#'>
+      <Card.Link href='/iframe'>
        <i className='fas fa-home fa-3x'></i>
       </Card.Link>
       <Card.Text>מאגר נכסים</Card.Text>

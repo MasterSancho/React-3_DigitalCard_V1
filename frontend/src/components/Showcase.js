@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { Row, Image } from 'react-bootstrap';
 
 const Showcase = () => {
  return (

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Button, Col, Card } from 'react-bootstrap';
-import { Twitter, Facebook, Linkedin, Instagram } from 'react-bootstrap-icons';
 
 const IconsShare = () => {
  return (
