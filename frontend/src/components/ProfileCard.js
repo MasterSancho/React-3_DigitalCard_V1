@@ -7,7 +7,7 @@ const ProfileCard = () => {
    <Container className='text-center'>
     <Row>
      <Image
-      src='images/08.09.20_Arieli_Shay_029.jpg'
+      src='images/08.09.20_Arieli_Shay_029-min.jpg'
       className='rounded-circle w-50 m-auto my-3'
       alt=''
       fluid
