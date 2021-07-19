@@ -37,28 +37,28 @@ const IconsLinks = ({ color }) => {
 
     <Row className='g-4 py-4'>
      <Col className='text-center'>
-      <Card.Link href='#'>
+      <Card.Link href='/atar_ezerGovmap'>
        <i className='fab fa-chrome fa-3x' style={{ color }}></i>
       </Card.Link>
       <Card.Text>אתרי עזר</Card.Text>
      </Col>
 
      <Col className='text-center'>
-      <Card.Link href='/iframe'>
+      <Card.Link href='/maagar_nehasim'>
        <i className='fas fa-home fa-3x' style={{ color }}></i>
       </Card.Link>
       <Card.Text>מאגר נכסים</Card.Text>
      </Col>
 
      <Col className='text-center'>
-      <Card.Link href='#'>
+      <Card.Link href='/madlan'>
        <i className='fas fa-house-damage fa-3x' style={{ color }}></i>
       </Card.Link>
       <Card.Text>מדלן</Card.Text>
      </Col>
 
      <Col className='text-center'>
-      <Card.Link href='#'>
+      <Card.Link href='/facebook'>
        <i className='fab fa-facebook-f fa-3x' style={{ color }}></i>
       </Card.Link>
       <Card.Text>פייסבוק</Card.Text>
@@ -67,28 +67,28 @@ const IconsLinks = ({ color }) => {
 
     <Row className='g-4'>
      <Col className='text-center'>
-      <Card.Link href='#'>
+      <Card.Link href='/atar_amadrihLeMehira'>
        <i className='far fa-list-alt fa-3x' style={{ color }}></i>
       </Card.Link>
       <Card.Text>המדריך למכירת נכס</Card.Text>
      </Col>
 
      <Col className='text-center'>
-      <Card.Link href='#'>
+      <Card.Link href='/atar_daNnehita'>
        <i className='fab fa-chrome fa-3x' style={{ color }}></i>
       </Card.Link>
       <Card.Text>דף נחיתה</Card.Text>
      </Col>
 
      <Col className='text-center'>
-      <Card.Link href='#'>
+      <Card.Link href='/atar_minAtonim'>
        <i className='fab fa-chrome fa-3x' style={{ color }}></i>
       </Card.Link>
       <Card.Text>מן העיתונות</Card.Text>
      </Col>
 
      <Col className='text-center'>
-      <Card.Link href='#'>
+      <Card.Link href='/atar_mektsuim'>
        <i className='fab fa-black-tie fa-3x' style={{ color }}></i>
       </Card.Link>
       <Card.Text>אתר המקצוענים</Card.Text>

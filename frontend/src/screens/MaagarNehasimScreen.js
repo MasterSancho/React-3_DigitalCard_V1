@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Iframe from 'react-iframe';
 
-const PopopScreen = () => {
+const MaagarNehasimScreen = () => {
  return (
   <>
    <Container>
@@ -15,8 +15,6 @@ const PopopScreen = () => {
       url='https://www.remax-israel.com/arielis'
       width='80%'
       height='1000px'
-      id='myId'
-      className=''
       display='initial'
       position='relative'
      />
@@ -26,4 +24,4 @@ const PopopScreen = () => {
  );
 };
 
-export default PopopScreen;
+export default MaagarNehasimScreen;
