@@ -26,4 +26,12 @@ const HomeScreen = () => {
  );
 };
 
+IconsLinks.defaultProps = {
+ color: '#b30000',
+};
+
+IconsShare.defaultProps = {
+ color: '#b30000',
+};
+
 export default HomeScreen;

@@ -8,7 +8,12 @@ const PicturesCarousel = () => {
    <Carousel pause='hover' className='bg-dark'>
     {pictures.map((picture) => (
      <Carousel.Item key={picture._id}>
-      <Image src={picture.image} alt={picture.name} fluid />
+      <Image
+       className='d-block w-100 '
+       src={picture.image}
+       alt={picture.name}
+       fluid
+      />
      </Carousel.Item>
     ))}
    </Carousel>
