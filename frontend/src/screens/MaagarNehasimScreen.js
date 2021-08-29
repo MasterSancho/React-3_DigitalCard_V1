@@ -13,7 +13,7 @@ const MaagarNehasimScreen = () => {
     <Row>
      <Iframe
       url='https://www.remax-israel.com/arielis'
-      width='80%'
+      width='100%'
       height='1000px'
       display='initial'
       position='relative'

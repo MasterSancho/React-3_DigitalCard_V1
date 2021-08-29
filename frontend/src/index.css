@@ -11,6 +11,10 @@ a {
  color: white;
 }
 
+.galleryMax-height {
+ min-height: 400px;
+ height: 400px;
+}
 /* body::before {
  display: block;
  content: '';
